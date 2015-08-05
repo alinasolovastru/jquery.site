@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Chewy);
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+	font-family: 'lucida grande', sans-serif;
+}
+
+#header{
+	margin: 0 auto;
+	width: 640px;
+	height: 250px;
+	background: transparent url('../pictures/logo.jpg') top left no-repeat;
+	background-size: cover;}
+	
+	
+.motto{
+	font-family: 'Chewy' cursive;
+	color: black;
+	font-size: 30px;
+	left:10px;
+	position: relative;
+	top: 10px;
+}
+
+#jumbotron{
+	background: transparent url('final.jpg') top left no-repeat;
+	background-size: cover;
+	background-color:#20B2AA;
+	margin: 0 auto;
+	width: 640px;
+	padding: 15px;}
+	
+#content{
+	
+	
+	margin: 0 auto;
+	padding: 10px;
+	font-family: 'times new roman';
+	}
+#menu{
+	height: 35px;
+	background-color: #B2B2B2 ;
+	margin: 18 10px;
+	padding: auto;
+	display: inline;
+	
+}
+
+#menu ul{
+	margin:15;
+	padding: 2px;
+	height: 25px;
+	
+}
+
+#menu ul li{
+	list-style: none;
+	display: inline;	
+}
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited{
+	color:#660033;
+	padding: 10px 7px 10px 7px;
+	text-decoration: none;
+	font-weight: bold; 
+}
+#menu ul li a:hover{
+	color:#FF0000;
+	background-color:#808080;
+}
+p{
+	font-family: times new roman;
+	font-size: 15px;
+}
+#col_st{
+	width:50%;
+	background-color: gray;
+	float: left;
+	
+	
+}
+
+#col_dr{
+	width: 50%;
+	
+	float: left;
+	
+}
+#col_clear{
+	clear: both;	
+}
